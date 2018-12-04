@@ -137,8 +137,11 @@ optional arguments:
 
 Default parameters:
 num-cluster=5
+
 use-minibatch=False
+
 input-labeled=False
+
 text-type=abstract
 
 
