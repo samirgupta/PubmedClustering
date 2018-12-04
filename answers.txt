@@ -1,0 +1,72 @@
+1. The text processing steps used (tokenization, stemming, etc).
+
+	nltk tokenization and porter stemming used
+
+	text for abstract generated in two ways: 
+	(a) use entire abstract provided by ncbi restful apis
+	(b) use only disease mentions for each pmids as  text
+
+2. The similarity metric employed for the clustering algorithm.
+
+	Euclidean distance
+
+3. The clustering algorithm chosen.
+
+	k-means++ and mini-batch k-means
+
+
+
+4. The parameters tested/used to execute the clustering algorithm.
+
+usage: test.py [-h] [--num-clusters NUM_OF_CLUSTERS] [--use-minibatch]
+               [--input-labeled] [--text-type {abstract,diseases}]
+               input_file output_file
+
+positional arguments:
+  input_file            input file containing pmids to cluster
+  output_file           output file to write cluster assignments
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --num-clusters NUM_OF_CLUSTERS
+                        number of clusters
+  --use-minibatch       use mini batch k-means
+  --input-labeled       use labeled input file
+  --text-type {abstract,diseases}
+                        what terms to be considered in abstract for feature
+                        extraction: entire abstract (default) or only disease
+                        terms
+
+
+5. Design choices and computational complexity of your code
+
+	k-means used for clustering. Document feature extraction based on tf-idf. 
+
+	Complexity: O(n*i*k), where n is the number of pmids, i is the number of iterations to converge for k-means
+	and k is the number of clusters
+	[based on k-means complexity]
+
+
+	Alternate feature representation: (Further Improvement Idea)
+
+	(1) use gensim to train doc2vec embeddings (https://radimrehurek.com/gensim/models/doc2vec.html)
+	on entire MEDLINE (or some large subset) and use this embeddings for feature extraction for pmids
+
+	(2)  Use MESH IDs of abstracts in addition to abstract text
+
+
+6. If you had the correct groupings of the PMIDs, how would your evaluate the performance of your clustering algorithm?
+
+	The following metrics have been used to evaluate the cluster assignment: (use --is-labeled and provide labeled input file) 
+
+	Homogeneity, completeness and V-measure 
+
+	Homogeneity means all of the observations with the same class label are in the same cluster.
+	Completeness means all members of the same class are in the same cluster. Their harmonic mean called V-measure 
+
+	Please see (https://scikit-learn.org/stable/modules/clustering.html#homogeneity-completeness-and-v-measure) for more details.
+
+	Also computed is Adjusted Rand index, which measures  similarity of the two assignments, ignoring permutations and with chance normalization.
+
+
+	All four measures are computed and displayed at stdout, when using --input-labeled option and providing a labeled input file
