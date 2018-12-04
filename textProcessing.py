@@ -39,6 +39,16 @@ def get_abstract_text(pmid):
         return abstract_title+" "+abstract_text
     return ""
 
+#####use downloded database from pubtator to build a pmid to disease pickle dictionary
+#####Disadvantage some latest pmids might not be included in the released database by ncbi
+def get_pubtator_diseases(pmid, pmid_disease_dict):
+    if pmid in pmid_disease_dict:
+        return " ".join(pmid_disease_dict[pmid])
+    else: return "None"
+
+
+###This method needs to be fixed, The pubtator restful APIs doesn't work after several requests 
+###randomly gets 502 bad gateway errors. Alternate way provided above
 def get_pubtator_entities(pmid):
     request_url = 'https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/RESTful/tmTool.cgi/BioConcept/'+pmid+'/JSON/'
     res = requests.get(request_url)

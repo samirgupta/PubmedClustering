@@ -12,5 +12,7 @@ def create_argument_parser():
                          help="use mini batch k-means")
     parser.add_argument("--input-labeled", dest="input_labeled", default=False, action="store_true",
                          help="use labeled input file")
+    parser.add_argument("--text-type", dest="text_type", type=str, default="abstract", choices=["abstract", "diseases"],
+                         help="what terms to be considered in abstract for feature extraction: entire abstract (default) or only disease terms")
     args = parser.parse_args()
     return args
