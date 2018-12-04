@@ -43,7 +43,7 @@ def run():
             abstract_text = get_abstract_text(pmid)
         elif text_type == "diseases":
             abstract_text = get_pubtator_diseases(pmid, pmid_disease_dict)
-        print((pmid,abstract_text))
+        #print((pmid,abstract_text))
         abstract_texts.append(abstract_text)
     print("done in %fs" % (time() - t0))
     print("abstracts downloaded: %d" % len(pmids))

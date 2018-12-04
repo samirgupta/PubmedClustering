@@ -1,0 +1,434 @@
+10022033	MESH:D000544	AD|Alzheimer's disease	MESH|DNorm
+10022033	MESH:D003704	dementia	DNorm
+10022033	MESH:D030342	related disorders	DNorm
+10025425	MESH:C536599	neurofibrillary tangle|NFT|Neurofibrillary tangle	DNorm
+10025425	MESH:D000544	AD|Alzheimer disease	DNorm|MESH
+10025425	MESH:D003704	concomitant dementia|dementia	DNorm
+10025425	MESH:D009410	neurofibrillary degeneration	DNorm
+10025425	MESH:D020961	DLB|Lewy bodies	DNorm
+10025425	MESH:D058225	neuropil threads and tau-positive plaque neurites	DNorm
+10025444	MESH:D000544	AD|Alzheimer disease	DNorm|MESH
+10025444	MESH:D003704	dementia	DNorm
+10025444	MESH:D009461	volume deficits	DNorm
+10025576	MESH:D000544	Alzheimer's disease	DNorm|MESH
+10025576	MESH:D003704	dementia	MESH
+10025576	MESH:D057180	frontotemporal dementia	DNorm
+12677556	MESH:D009358	heterogeneous disorder	DNorm
+12677556	MESH:D020788	Bardet-Biedl syndrome	DNorm|MESH|RGD
+12677556	MESH:D049932	BBS	DNorm
+14707528	MESH:D003123	Lynch syndrome	MESH|DNorm
+14707528	MESH:D009369	cancer	DNorm
+14707528	MESH:D015179	colorectal cancer|colorectal cancers|hereditary non-polyposis colon cancer|non-polyposis colon cancer	DNorm|MESH
+15231740	MESH:D002658	developmental disorder	DNorm
+15231740	MESH:D003920	diabetes	DNorm
+15231740	MESH:D007859	learning defects	DNorm
+15231740	MESH:D008107	cilia dysfunction	DNorm
+15231740	MESH:D009202	cardiomyopathy	DNorm
+15231740	MESH:D009765	obesity	DNorm
+15231740	MESH:D020788	BBS|Bardet-Biedl syndrome	DNorm
+15231740	MESH:D028361	structural and functional defects	DNorm
+15231740	OMIM:217000	CHE-2	DNorm
+17574030	MESH:D007674	nephropathy	DNorm
+17574030	MESH:D009765	obesity	DNorm
+17574030	MESH:D012162	retinal degeneration	DNorm
+17574030	MESH:D020788	Bardet-Biedl syndrome	DNorm|MESH
+17574030	MESH:D030342	genetic disorder	DNorm
+17574030	MESH:D049932	BBS	DNorm
+18001324	MESH:C536107	AA-NAT|arylalkylamine N-acetyltransferase	DNorm
+18270381	MESH:D007674	renal impairment|renal dysfunction	DNorm
+18270381	MESH:D009369	urothelial cancer	DNorm
+18667262	MESH:D002908	chronic disease	DNorm
+18667262	MESH:D003866	depression	DNorm
+20578946	MESH:C537846	Noonan-like syndromes|Noonan and Noonan-like syndromes	DNorm
+20578946	MESH:D002312	hypertrophic cardiomyopathy	MESH|DNorm
+20578946	MESH:D006130	short stature	DNorm
+20578946	MESH:D009634	NS|Noonan syndrome	MESH|DNorm
+20578946	MESH:D011666	pulmonary valve stenosis	MESH|DNorm
+20578946	MESH:D012509	rat sarcoma	DNorm
+20578946	MESH:D013577	syndromes	MESH
+20578946	MESH:D030342	disorders of dysregulation	DNorm
+21246219	MESH:D002658	multisystemic developmental disorder	DNorm
+21246219	MESH:D007006	hypogonadism	DNorm
+21246219	MESH:D007674	kidney disease|renal dysfunction	DNorm|MESH
+21246219	MESH:D007859	learning disabilities	DNorm
+21246219	MESH:D009765	obesity	DNorm
+21246219	MESH:D012164	retinal defects	DNorm
+21246219	MESH:D017689	polydactyly	DNorm
+21246219	MESH:D020788	BBS|Bardet-Biedl syndrome	DNorm|MESH
+21263000	MESH:D002658	developmental defects|developmental disorder|developmental disorders	DNorm
+21263000	MESH:D006330	congenital heart defects	DNorm
+21263000	MESH:D009634	Noonan syndrome|Noonan-syndrome	DNorm|MESH
+21549079	MESH:C537393	Neurofibromatosis-Noonan syndrome	DNorm
+21549079	MESH:D009456	Neurofibromatosis type 1	DNorm
+21549079	MESH:D009634	Noonan|Noonan syndrome	MESH|DNorm
+21549079	MESH:D017253	Neurofibromatosis	MESH|DNorm
+21706501	MESH:D006331	cardiac anomalies	DNorm
+21706501	MESH:D006831	polyhydramnios	DNorm|MESH
+21706501	MESH:D009634	Noonan syndrome	DNorm|MESH
+21706501	MESH:D010996	pleural effusion	DNorm
+21706501	MESH:D015160	hydrops fetalis	DNorm
+21706501	MESH:D018191	cystic hygroma	DNorm|MESH
+21706501	MESH:D019465	facial abnormalities	DNorm|MESH
+22011734	MESH:D001932	primary brain tumors	DNorm|MESH
+22011734	MESH:D002658	developmental delay	DNorm
+22011734	MESH:D004194	glial or glioneuronal neoplasms	DNorm
+22011734	MESH:D006331	cardiac abnormalities	DNorm
+22011734	MESH:D009369	glioneuronal tumor|malignancies|tumor	DNorm
+22011734	MESH:D009634	Noonan syndrome	MESH|DNorm
+22011734	MESH:D057215	dysmorphism	DNorm
+23211900	MESH:C537846	Noonan-like central giant cell syndrome|born with Noonan-like central giant cell syndrome	DNorm
+23211900	MESH:C565469	variable immune deficiency	DNorm
+23211900	MESH:D006101	central giant cell granuloma syndrome	MESH|DNorm
+23211900	MESH:D009634	Noonan syndrome|Noonan's syndrome	MESH|DNorm
+23211900	MESH:D017074	common variable immune deficiency	MESH
+23239255	MESH:D001139	CM-I|Chiari I malformation|Chiari I malformations	DNorm|MESH
+23239255	MESH:D006130	developmental abnormalities	DNorm
+23239255	MESH:D009422	neurological problems|neurological abnormalities	DNorm
+23239255	MESH:D009634	NS|Noonan syndrome	MESH|DNorm
+23239255	MESH:D012600	scoliosis	DNorm
+23239255	MESH:D013595	syringomyelia	DNorm
+23239255	MESH:D019465	facial abnormalities	DNorm
+23716571	MESH:D017827	wild-type|WT	DNorm
+23716571	MESH:D020788	Bardet-Biedl syndrome	DNorm|MESH
+23954459	MESH:C563523	FSNF|Spinal neurofibromatosis|Familial spinal neurofibromatosis	DNorm
+23954459	MESH:D004194	sporadic disease	DNorm
+23954459	MESH:D009455	neurofibromas	DNorm
+23954459	MESH:D009456	NF1|neurofibromatosis type 1	MESH|DNorm
+23954459	MESH:D010523	neurofibromas of major peripheral nerves	DNorm
+23954459	MESH:D017253	neurofibromatosis	MESH|DNorm
+24032991	MESH:C535662	dysplasia	DNorm
+24032991	MESH:C537963	calvarial defect	DNorm
+24032991	MESH:D004677	meningoencephalocele	MESH|DNorm
+24032991	MESH:D006259	occipital dysplasia|OD	DNorm
+24032991	MESH:D009456	neurofibromatosis Type 1	MESH
+24032991	MESH:D017253	neurofibromatosis	MESH|DNorm
+24032991	MESH:D018318	Congenital giant plexiform neurofibroma|GPNF|Giant plexiform neurofibroma	DNorm|MESH
+24316073	MESH:D009765	obese|obesity	DNorm
+24316073	MESH:D020788	BBS|BBS disease|Bardet-Biedl syndrome	MESH|DNorm
+24523674	MESH:D000544	Alzheimer's disease	DNorm
+24523674	MESH:D000690	amyotrophic lateral sclerosis|ALS	DNorm
+24523674	MESH:D008659	metabolic disorders	DNorm
+24523674	MESH:D009133	SMA|spinal muscular atrophy	DNorm
+24523674	MESH:D009369	cancer	DNorm
+24523674	MESH:D009410	neuron disease|neuron disorders	DNorm
+24523674	MESH:D009422	neurological disorders	DNorm
+24533984	MESH:D001284	atrophy	DNorm
+24533984	MESH:D003643	death	DNorm
+24533984	MESH:D009133	SMA|Spinal muscular atrophy	DNorm
+24533984	MESH:D009134	Spinal muscular atrophy|spinal muscular atrophy	MESH
+24533984	MESH:D030342	autosomal recessive genetic disease	DNorm
+24611735	MESH:D002318	cardiovascular disease|cardiovascular morbidity	MESH|DNorm
+24611735	MESH:D007006	hypogonadism	DNorm
+24611735	MESH:D007674	renal impairment	DNorm
+24611735	MESH:D009069	intellectual disability	DNorm
+24611735	MESH:D009765	obesity	DNorm
+24611735	MESH:D017689	polydactyly	DNorm
+24611735	MESH:D020788	Bardet-Biedl syndrome	DNorm|MESH
+24611735	MESH:D058499	retinal dystrophy	DNorm
+24619745	MESH:D001943	breast cancer|breast carcinoma	DNorm|MESH
+24619745	MESH:D009369	tumors	DNorm
+24619745	MESH:D064726	Triple-negative breast cancer	MESH
+24695551	MESH:D003072	cognitive deficits	DNorm
+24695551	MESH:D009410	PNC abnormalities|neuronal loss	DNorm
+24695551	MESH:D020788	BBS|Bardet-Biedl syndrome	DNorm|MESH
+24695551	MESH:D030342	inherited human disorder	DNorm
+24705136	MESH:D000690	ALS|Amyotrophic lateral sclerosis	DNorm
+24705136	MESH:D001284	atrophy	DNorm
+24705136	MESH:D009128	spasticity	DNorm
+24705136	MESH:D009133	spinal muscular atrophy|SMA	DNorm
+24705136	MESH:D009410	degeneration of LMNs|degeneration of UMNs	DNorm|MESH
+24705136	MESH:D015419	hereditary spastic paraplegia|HSP	DNorm
+24705136	MESH:D016472	MNDs|Motor neuron diseases	MESH|DNorm
+24705136	MESH:D018908	muscle weakness	DNorm
+24705136	MESH:D030342	LMN disorders|UMN disorders	DNorm
+24715477	MESH:D009123	Neonatal hypotonia|hypotonia|hypotonic infants	DNorm|MESH
+24715477	MESH:D009133	spinal muscular atrophy	DNorm
+24715477	MESH:D011218	Prader-Willi syndrome	DNorm|MESH
+24715477	MESH:D015518	Rett syndrome	DNorm
+24715477	MESH:D030342	genetic disease|genetic diseases	DNorm
+24715477	MESH:D058495	Sotos syndrome	DNorm
+24769255	MESH:D009410	SMN deficiency	DNorm
+24769255	MESH:D016472	motor neuron disease	MESH|DNorm
+24769255	MESH:D019636	neurodegenerative disease spinal muscular atrophy	DNorm
+24939608	MESH:D009634	Noonan syndrome	MESH|DNorm
+25008444	MESH:C537390	SNF|segmental neurofibromatosis|bilateral segmental neurofibromatosis	DNorm
+25008444	MESH:D009456	neurofibromatosis type 1	MESH|DNorm
+25008444	MESH:D017253	neurofibromatosis	MESH|DNorm
+25080519	MESH:D003643	death	DNorm
+25080519	MESH:D009133	SMA-I|spinal muscular atrophy type I	DNorm
+25080519	MESH:D009468	Neuromuscular Disorders	DNorm
+25080519	MESH:D014897	SMA-II	MESH|DNorm
+25458167	MESH:C566719	cone dystrophy	DNorm
+25458167	MESH:D004820	concha bullosa	DNorm
+25458167	MESH:D007006	hypogonadism	DNorm
+25458167	MESH:D007674	renal anomalies	DNorm
+25458167	MESH:D007859	learning disabilities	DNorm
+25458167	MESH:D009765	obesity	DNorm
+25458167	MESH:D015508	Nasal obstruction	MESH
+25458167	MESH:D017689	polydactyly	DNorm
+25458167	MESH:D020788	Bardet-Biedl syndrome	DNorm|MESH
+25672202	MESH:C566719	cone dystrophy	DNorm
+25672202	MESH:D000740	Anaemia|anaemia	MESH|DNorm
+25672202	MESH:D007006	hypogonadism	DNorm
+25672202	MESH:D007674	renal anomalies	DNorm
+25672202	MESH:D009765	obesity	DNorm
+25672202	MESH:D020788	Bardet Biedl Syndrome	DNorm|MESH
+25672202	MESH:D030342	autosomal recessive disorder|genetic disorder	DNorm
+25682074	MESH:D001943	breast cancer|Triple-negative breast cancers|TNBC|breast tumours	DNorm
+25682074	MESH:D010051	ovarian cancer	MESH
+25682074	MESH:D061325	breast or ovarian cancer	DNorm
+25682074	MESH:D064726	triple-negative breast cancer	MESH
+25711197	MESH:D002277	urothelial carcinoma|upper tract urothelial carcinoma	DNorm
+25711197	MESH:D003123	Lynch Syndrome|Lynch syndrome	DNorm|MESH
+25711197	MESH:D009369	urological cancers|urological cancer|tumor	DNorm
+25711197	MESH:D014516	ureteral cancer	DNorm
+25711197	MESH:D015179	hereditary nonpolyposis colorectal cancer	DNorm
+25711197	MESH:D030342	genetic disease|autosomal dominant genetic disease	DNorm
+25752562	MESH:D001943	TNBC|triple-negative breast cancer	DNorm
+25752562	MESH:D009369	tumour	DNorm
+25752562	MESH:D064726	triple-negative breast cancer	MESH
+26077881	MESH:C537599	SRPS	DNorm
+26077881	MESH:C564766	ciliary IFT accumulations	DNorm
+26077881	MESH:D012779	short rib polydactyly syndrome	DNorm|MESH
+26077881	MESH:D017689	polydactyly	DNorm
+26077881	MESH:D030342	autosomal recessive, perinatal lethal skeletal disorders	DNorm
+26098911	MESH:C537571	Jeune asphyxiating thoracic dystrophy|JATD	DNorm
+26098911	MESH:D000015	multiple cartilage anomalies	DNorm
+26098911	MESH:D006984	hypertrophic	DNorm
+26098911	MESH:D013896	narrow thoracic cavity	DNorm
+26103456	MESH:D020788	BBS|Bardet Biedl Syndrome	MESH|DNorm
+26201402	MESH:D001943	Breast Cancer|TNBC tumors|Triple negative breast cancer|TNBC|quadruple negative breast cancer|breast cancer	DNorm
+26201402	MESH:D004194	Quadruple Negative Disease	DNorm
+26201402	MESH:D064726	Triple Negative Breast Cancer	MESH
+26273192	MESH:D001943	BC|Breast cancer|breast cancer	DNorm
+26273192	MESH:D009369	tumor|tumors	DNorm
+26273192	MESH:D064726	triple-negative breast cancer	MESH
+26309352	MESH:C536928	MMR deficiency syndrome	DNorm
+26309352	MESH:D003110	colon cancer	DNorm
+26309352	MESH:D003123	Lynch syndrome|Lynch-like syndrome	DNorm|MESH
+26309352	MESH:D009369	cancer|tumor	DNorm
+26309352	MESH:D011125	polyposis	DNorm
+26309352	MESH:D015179	CRC|HNPCC|HNPCC conditions|HNPCC disorders|Hereditary non-polyposis colorectal cancer|familial colorectal cancer|familial colorectal cancer type X|sporadic MSI CRC	MESH|DNorm
+26309352	MESH:D053842	MSI|microsatellite instability	MESH|DNorm
+26568208	MESH:D001943	breast cancer|breast cancer diagnosis|Triple-negative breast cancer|TNBC	DNorm
+26568208	MESH:D009369	tumor	DNorm
+26568208	MESH:D064726	triple-negative breast cancer	MESH
+26586152	MESH:D000857	BBS and olfactory dysfunction|Olfactory dysfunction|olfactory dysfunction	DNorm|MESH
+26586152	MESH:D020788	BBS|Bardet-Biedl syndrome	DNorm|MESH
+26586152	MESH:D030342	genetical syndrome	DNorm
+26642845	MESH:C538231	lung adenocarcinoma|lung adenocarcinomas|Lung adenocarcinoma	DNorm
+26642845	MESH:D000230	adenocarcinoma	DNorm|MESH
+26642845	MESH:D009362	pleural and/or lymphovascular invasion	DNorm
+26642845	MESH:D009369	Tumor|tumor|tumors	DNorm
+26642845	MESH:D065311	adenocarcinoma in situ	DNorm
+26820943	MESH:D001943	Breast Cancer|breast cancers|Triple-negative breast cancers	DNorm
+26820943	MESH:D002277	carcinomas|triple-negative carcinomas	DNorm
+26820943	MESH:D009369	tumors|cancer	DNorm
+26820943	MESH:D064726	Triple-Negative Breast Cancer	MESH
+26846096	MESH:C538153	synpolydactyly	DNorm
+26846096	MESH:C562429	postaxial polydactyly	DNorm
+26846096	MESH:D007674	renal abnormality|renal dysfunction	DNorm
+26846096	MESH:D009069	intellectual disability	DNorm
+26846096	MESH:D009102	multi-organ dysfunction	DNorm
+26846096	MESH:D009765	obesity|truncal obesity	DNorm
+26846096	MESH:D012162	retinal degeneration	DNorm
+26846096	MESH:D012174	retinitis pigmentosa	DNorm
+26846096	MESH:D014564	genital anomaly	DNorm
+26846096	MESH:D020788	BBS|BBS syndrome|Bardet Biedl Syndrome|Bardet Biedl syndrome	MESH|DNorm
+26846096	MESH:D030342	autosomal recessive BBS|hetero-genetic disorder	DNorm
+26895074	MESH:C536928	Mismatch repair deficiency|MMR gene deficiency|MMR deficiency	DNorm
+26895074	MESH:D003123	Lynch syndrome	MESH|DNorm
+26895074	MESH:D009369	tumor|cancer	DNorm
+26895074	MESH:D014591	endometrial malignancies	DNorm
+26895074	MESH:D030342	autosomal dominant inherited disorder	DNorm
+26895074	MESH:D053842	MSI|microsatellite instability	MESH|DNorm
+26925684	MESH:D001943	breast cancers|invasive breast cancer|Breast Cancer|breast cancer	DNorm
+26925684	MESH:D009369	tumors|smaller tumor	DNorm
+26925684	MESH:D064726	Triple Negative Breast Cancer	MESH
+26952712	MESH:D009422	Hypertrophic neuropathy|hypertrophic neuropathy	DNorm
+26952712	MESH:D009437	neuropathic pain	DNorm
+26952712	MESH:D009456	NF1|neurofibromatosis type 1	DNorm
+26952712	MESH:D030342	genetic syndromes	DNorm
+26952712	MESH:D044542	NSML|Noonan syndrome with multiple lentigines	DNorm
+26968398	MESH:D001943	BC|triple-negative breast cancer|TNBC|breast cancer	DNorm
+26968398	MESH:D009369	cancer|Cancer|tumor	DNorm
+26968398	MESH:D020323	TICs	DNorm
+26968398	MESH:D064726	triple-negative breast cancer	MESH
+27015557	MESH:D001943	breast cancer|TNBC|triple-negative breast cancer	DNorm
+27015557	MESH:D009336	necrosis	DNorm
+27015557	MESH:D009369	cancer|tumor	DNorm
+27241659	MESH:D009456	neurofibromatosis type 1	DNorm
+27241659	MESH:D017253	neurofibromatosis	MESH
+27442694	MESH:D006949	hyperlipidemia	DNorm
+27442694	MESH:D006973	hypertension	DNorm
+27442694	MESH:D007006	hypogonadotrophic hypogonadism	DNorm
+27442694	MESH:D007674	genitourinary and renal abnormalities	DNorm
+27442694	MESH:D009069	intellectual disability	DNorm
+27442694	MESH:D009765	obesity	DNorm
+27442694	MESH:D012174	rod-cone dystrophy	DNorm
+27442694	MESH:D015430	weight gain	DNorm
+27442694	MESH:D017689	Polydactyly	MESH|DNorm
+27442694	MESH:D020788	BBS|Bardet-Biedl syndrome	DNorm|MESH
+27466187	MESH:D012779	SRPS|short rib polydactyly syndromes|short rib-polydactyly syndrome	DNorm|MESH
+27466187	MESH:D017689	polydactyly	DNorm
+27466187	MESH:D018376	visceral abnormalities	DNorm
+27488999	MESH:D007674	renal dysfunction|renal anomalies	DNorm
+27488999	MESH:D014842	von Willebrand	DNorm
+27488999	MESH:D017880	limb defect	DNorm
+27488999	MESH:D020788	BBS|Bardet-Biedl syndrome	MESH|DNorm
+27488999	MESH:D051437	renal insufficiency	DNorm
+27496117	MESH:D003123	Lynch syndrome	DNorm
+27496117	MESH:D009369	Lynch syndrome-associated cancers|endometrial cancer, and other cancers	DNorm
+27496117	MESH:D015179	colorectal cancer	DNorm
+27571505	MESH:D003072	cognitive defects	DNorm
+27571505	MESH:D020788	Bardet Biedl syndrome	DNorm
+27571505	MESH:D030342	autosomal recessive disorder	DNorm
+27580659	MESH:D001943	TNBC|TNBC lesions|triple-negative breast cancer|breast cancer	DNorm
+27580659	MESH:D009369	cancer|tumor|tumors|brachyury in the primary tumor	DNorm
+27903974	MESH:C538231	LUAD|lung adenocarcinoma	DNorm
+27903974	MESH:D002294	lung squamous cell carcinoma|LUSC	DNorm
+27903974	MESH:D008175	anti-lung cancer	DNorm
+27903974	MESH:D009369	Cancer Genome Atlas|various cancers	DNorm
+28001324	MESH:D023903	Restenosis|restenosis	DNorm
+28101798	MESH:D001943	breast cancer|triple negative breast carcinoma	DNorm
+28101798	MESH:D009362	metastases	DNorm
+28101798	MESH:D009369	cancer|tumor	DNorm
+28105432	MESH:C538231	lung adenocarcinoma	DNorm
+28105432	MESH:D002289	NSCLC|non-small-cell lung cancer	DNorm|MESH
+28105432	MESH:D008175	Lung cancer|lung cancer	DNorm|MESH
+28105432	MESH:D009369	Cancer|tumor|cancers|cancer|cancer-related death	DNorm
+28105432	MESH:D055752	SCLC|small cell lung cancer	MESH|DNorm
+28118799	MESH:D008175	Lung cancer|lung cancer	DNorm|MESH
+28118799	MESH:D009362	metastasis	DNorm
+28118799	MESH:D009369	tumors|cancer-related deaths	DNorm
+28118799	MESH:D012131	respiratory disease	DNorm
+28174811	MESH:C562429	postaxial polydactyly	DNorm
+28174811	MESH:D003072	cognitive deficit	DNorm
+28174811	MESH:D007006	hypogonadism	DNorm
+28174811	MESH:D007674	renal impairment	DNorm
+28174811	MESH:D009765	obesity	DNorm
+28174811	MESH:D010048	ovarian dermoid cysts	DNorm
+28174811	MESH:D010051	Ovarian teratomas	MESH|DNorm
+28174811	MESH:D013724	teratomas	MESH
+28174811	MESH:D014564	genital malformations	DNorm
+28174811	MESH:D020788	BBS|Bardet-Biedl syndrome	MESH|DNorm
+28174811	MESH:D058499	retinal dystrophy	DNorm
+28198380	MESH:D001943	Breast cancer|breast cancer|breast cancers|breast cancer cells and breast tumors|breast cancer tumor	DNorm
+28198380	MESH:D009369	cancer	DNorm
+28211982	MESH:C537846	Noonan-like syndrome	DNorm
+28211982	MESH:D003389	cranial vault abnormality	DNorm
+28211982	MESH:D003398	craniosynostosis	DNorm
+28211982	MESH:D009634	Noonan syndrome	DNorm
+28211982	MESH:D030342	Noonan syndrome-like disorder	DNorm
+28270381	MESH:D011602	psychosomatic health|psychosomatic	DNorm
+28296849	MESH:D004827	Epilepsy Dilemma	DNorm
+28377481	MESH:D001943	TNBC|Breast Cancer|Breast cancers|breast cancer|triple-negative breast cancer	DNorm
+28377481	MESH:D008545	melanoma	DNorm
+28377481	MESH:D009362	metastasis	DNorm
+28377481	MESH:D009369	Cancer|tumor|cancer	DNorm
+28400947	MESH:D012779	short rib polydactyly syndrome|SRPS	DNorm
+28400947	MESH:D017689	polydactyly	DNorm
+28403077	MESH:C538231	increased in lung adenocarcinoma|lung adenocarcinoma	DNorm
+28403077	MESH:D000230	adenocarcinoma	MESH
+28403077	MESH:D002292	renal cell carcinoma	DNorm
+28403077	MESH:D003643	malignant death	DNorm
+28403077	MESH:D008175	Lung carcinoma	MESH|DNorm
+28403077	MESH:D009369	cancers|Paired tumor	DNorm
+28403077	MESH:D011475	OS|overall survival	DNorm
+28403077	MESH:D015179	colorectal cancer	DNorm
+28618929	MESH:D001943	triple-negative breast cancers|triple-positive breast cancer|triple positive breast cancers|breast cancer|TNBC	DNorm
+28618929	MESH:D006331	cardiac glycoside Digitoxin	DNorm
+28618929	MESH:D009369	cancers	DNorm
+28618929	MESH:D064726	triple-negative breast cancer	MESH
+28623644	MESH:C538231	lung adenocarcinoma	DNorm
+28623644	MESH:C565230	AAA-TOB3	DNorm
+28623644	MESH:D008175	stage of lung adenocarcinoma	DNorm
+28623644	MESH:D014388	lymph node metastasis	DNorm
+28653902	MESH:D000860	hypoxic	DNorm
+28653902	MESH:D001943	breast cancer|breast cancer tumors|breast cancers	DNorm
+28653902	MESH:D003643	deaths	DNorm
+28653902	MESH:D064726	triple-negative breast cancer	MESH
+28696559	MESH:D003123	Lynch syndrome	DNorm
+28696559	MESH:D009369	cancers|autosomal dominant cancer syndrome|tumor	DNorm
+28696559	MESH:D015179	CRC|colorectal cancer syndrome|HNPCC|Hereditary Nonpolyposis Colorectal Cancer|Hereditary nonpolyposis colorectal cancer|colorectal cancer	DNorm
+28696559	MESH:D053842	microsatellite instability|MSI	DNorm
+28699072	MESH:C538322	MSI-H	DNorm
+28699072	MESH:D003123	Lynch syndrome	DNorm
+28699072	MESH:D006316	high-frequency microsatellite instability	DNorm
+28699072	MESH:D009369	cancers|tumors	DNorm
+28699072	MESH:D009386	hereditary cancer syndrome	DNorm
+28699072	MESH:D015179	Colorectal Cancers|MSI-H colorectal cancers|hereditary nonpolyposis colorectal cancer syndrome|colorectal cancers|Colorectal carcinomas	DNorm
+28720066	MESH:C538231	lung adenocarcinoma	DNorm
+28720066	MESH:D000230	adenocarcinoma	MESH
+28720066	MESH:D002289	non-small cell lung cancer	DNorm
+28720066	MESH:D004194	deadly disease	DNorm
+28720066	MESH:D008175	Lung Cancer	MESH|DNorm
+28720066	MESH:D008223	anaplastic lymphoma|Anaplastic lymphoma	DNorm
+28720066	MESH:D009369	tumors	DNorm
+28834269	MESH:C538231	Multidisciplinary Lung Adenocarcinoma	DNorm
+28834269	MESH:D000230	adenocarcinoma	DNorm
+28834269	MESH:D008175	Lung Cancer|stage I lung adenocarcinoma	DNorm
+28834269	MESH:D009369	tumor|tumors|micropapillary and solid predominant tumors	DNorm
+28911804	MESH:D002312	hypertrophic cardiomyopathy	DNorm
+28911804	MESH:D006330	congenital heart defects	DNorm
+28911804	MESH:D009202	cardiomyopathy	DNorm
+28911804	MESH:D009634	NS|Noonan syndrome	DNorm
+28911804	MESH:D030342	autosomal dominant disorder	DNorm
+28958991	MESH:D001943	Breast Cancer|breast cancer	DNorm
+28958991	MESH:D009369	tumors	DNorm
+29039417	MESH:D020788	Bardet-Biedl syndrome	DNorm
+29039417	MESH:D030342	pleiotropic genetic disorder	DNorm
+29060458	MESH:C538231	Lung Adenocarcinoma|lung adenocarcinoma	DNorm
+29060458	MESH:D008175	lung cancer	DNorm
+29060458	MESH:D009369	cancer malignancies|cancer-related deaths	DNorm
+29261648	MESH:D003635	Cornelia de Lange syndrome|CdLS	DNorm
+29271604	MESH:D001932	brain tumors|brain tumor	DNorm
+29271604	MESH:D002312	HCM|hypertrophic cardiomyopathy	DNorm
+29271604	MESH:D002658	neurodevelopmental disorders	DNorm
+29271604	MESH:D004194	hemato-oncological diseases	DNorm
+29271604	MESH:D006130	short stature|growth retardation	DNorm
+29271604	MESH:D006330	congenital heart defect	DNorm
+29271604	MESH:D007859	learning difficulties	DNorm
+29271604	MESH:D009369	oligodendroglial-like leptomeningeal tumor|malignant tumors	DNorm
+29271604	MESH:D009634	Noonan syndrome	DNorm
+29271604	MESH:D057215	dysmorphism	DNorm
+29271604	MESH:D058627	macrocephaly	DNorm
+29279609	MESH:D002658	neurodevelopmental syndrome	DNorm
+29279609	MESH:D003635	CdLS|Cornelia de Lange syndrome	DNorm
+29348408	MESH:D002658	multiple structural and developmental defects	DNorm
+29348408	MESH:D003635	Cornelia de Lange syndrome|CdLS	DNorm
+29348408	MESH:D006331	cardiac defects	DNorm
+29348408	MESH:D030342	complex disorder	DNorm
+29379197	MESH:D003635	CdLS|Cornelia de Lange-like syndrome|Cornelia de Lange syndrome	DNorm
+29860495	MESH:D003072	cognitive impairment	DNorm
+29860495	MESH:D003635	Cornelia de Lange syndrome|CdLS	DNorm
+29860495	MESH:D004194	multisystemic	DNorm
+29860495	MESH:D019588	premature aging	DNorm
+29982567	MESH:C535662	Skeletal dysplasias|lethal skeletal dysplasia|A total of 436 skeletal dysplasias	DNorm
+29982567	MESH:D001847	bone and cartilage disorders	DNorm
+29982567	MESH:D030342	genetic skeletal disorders	DNorm
+8001324	MESH:D009634	Noonan syndrome	MESH|DNorm
+8270381	MESH:D003221	confusion	DNorm
+8270381	MESH:D004194	retinopathy and structural and/or functional abnormalities	DNorm
+8270381	MESH:D007006	hypogonadism	DNorm
+8270381	MESH:D007676	end-stage renal disease	DNorm|MESH
+8270381	MESH:D007849	LMS|Laurence-Moon syndrome	MESH|DNorm
+8270381	MESH:D008607	mental retardation	DNorm
+8270381	MESH:D009765	obesity	DNorm
+8270381	MESH:D011141	polyuria	DNorm|MESH
+8270381	MESH:D012164	pigmentary retinopathy	DNorm
+8270381	MESH:D017689	polydactyly	DNorm
+8270381	MESH:D020788	Bardet-Biedl syndrome|BBS	DNorm
+8667262	MESH:C566623	hypogenitalism	DNorm
+8667262	MESH:D000848	hypodontia	DNorm|MESH
+8667262	MESH:D008607	mental retardation	DNorm
+8667262	MESH:D009765	obesity	DNorm
+8667262	MESH:D017689	polydactyly	DNorm
+8667262	MESH:D020788	Laurence-Moon-Bardet-Biedl (LMBB) syndrome|Laurence-Moon-Bardet-Biedl syndrome|dental and skeletal formation in the LMBB syndrome	DNorm
+8667262	MESH:D058499	retinal dystrophy	DNorm
+8712208	MESH:C563939	autonomic dysfunction	DNorm
+8712208	MESH:D007022	hypotensive|intradialytic hypotension	MESH|DNorm
+8712208	MESH:D007676	end-stage renal disease	DNorm|MESH
+8712208	MESH:D015431	volume reduction	DNorm
+8712208	MESH:D020788	Bardet-Biedl syndrome	DNorm
+8712208	MESH:D051437	renal failure	DNorm
