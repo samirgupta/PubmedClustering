@@ -85,7 +85,9 @@ Since the actual filesize of disease2pubtator is very large and not accepted by 
 Uncomment lines 2-5 in ./genPubator2Disease.sh to download the full file.
   
   
-  
+ ================================================================================
+ 
+ 
   Answers to Questions: (can also be found at ./answers.txt)
   
   1. The text processing steps used (tokenization, stemming, etc).
@@ -104,13 +106,13 @@ Uncomment lines 2-5 in ./genPubator2Disease.sh to download the full file.
 2. The similarity metric employed for the clustering algorithm.
 
 
-	Euclidean distance
+		Euclidean distance
   
 
 3. The clustering algorithm chosen.
 
 
-	k-means++ and mini-batch k-means
+		k-means++ and mini-batch k-means
   
 
 
@@ -118,7 +120,7 @@ Uncomment lines 2-5 in ./genPubator2Disease.sh to download the full file.
 4. The parameters tested/used to execute the clustering algorithm. 
 
 
-	usage: (python test.py -h)
+		usage: (python test.py -h)
 
 		Default parameters:
 		
@@ -133,36 +135,36 @@ Uncomment lines 2-5 in ./genPubator2Disease.sh to download the full file.
 
 5. Design choices and computational complexity of your code
 
-	k-means used for clustering. Document feature extraction based on tf-idf. 
+		k-means used for clustering. Document feature extraction based on tf-idf. 
 
-	Complexity: O(n*i*k), where n is the number of pmids, i is the number of iterations to converge for k-means
-	and k is the number of clusters
-	[based on k-means complexity]
+		Complexity: O(n*i*k), where n is the number of pmids, i is the number of iterations to converge for k-means
+		and k is the number of clusters
+		[based on k-means complexity]
 
 
-	Alternate feature representation: (Further Improvement Idea)
+		Alternate feature representation: (Further Improvement Idea)
 
-	(1) use gensim to train doc2vec embeddings (https://radimrehurek.com/gensim/models/doc2vec.html)
-	on entire MEDLINE (or some large subset) and use this embeddings for feature extraction for pmids
+		(1) use gensim to train doc2vec embeddings (https://radimrehurek.com/gensim/models/doc2vec.html)
+		on entire MEDLINE (or some large subset) and use this embeddings for feature extraction for pmids
 
-	(2)  Use MESH IDs of abstracts in addition to abstract text
+		(2)  Use MESH IDs of abstracts in addition to abstract text
 
 
 6. If you had the correct groupings of the PMIDs, how would your evaluate the performance of your clustering algorithm?
 
-	The following metrics have been used to evaluate the cluster assignment: (use --is-labeled and provide labeled input file) 
+		The following metrics have been used to evaluate the cluster assignment: (use --is-labeled and provide labeled input file) 
 
-	Homogeneity, completeness and V-measure 
+		Homogeneity, completeness and V-measure 
 
-	Homogeneity means all of the observations with the same class label are in the same cluster.
-	Completeness means all members of the same class are in the same cluster. Their harmonic mean called V-measure 
+		Homogeneity means all of the observations with the same class label are in the same cluster.
+		Completeness means all members of the same class are in the same cluster. Their harmonic mean called V-measure 
 
-	Please see (https://scikit-learn.org/stable/modules/clustering.html#homogeneity-completeness-and-v-measure) for more details.
+		Please see (https://scikit-learn.org/stable/modules/clustering.html#homogeneity-completeness-and-v-measure) for more details.
 
-	Also computed is Adjusted Rand index, which measures  similarity of the two assignments, ignoring permutations and with chance normalization.
+		Also computed is Adjusted Rand index, which measures  similarity of the two assignments, ignoring permutations and with chance normalization.
 
 
-	All four measures are computed and displayed at stdout, when using --input-labeled option and providing a labeled input file
+		All four measures are computed and displayed at stdout, when using --input-labeled option and providing a labeled input file
 
 
 
