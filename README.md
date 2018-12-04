@@ -2,25 +2,41 @@
 Cluster pubmed abstracts using k-means
 
 Tested on Python version: 3.6.3
+
 see ./requirements.txt for other dependencies
 
+
 usage: test.py [-h] [--num-clusters NUM_OF_CLUSTERS] [--use-minibatch]
+
                [--input-labeled] [--text-type {abstract,diseases}]
+               
                input_file output_file
 
 positional arguments:
+
   input_file            input file containing pmids to cluster
+  
   output_file           output file to write cluster assignments
+  
 
 optional arguments:
+
   -h, --help            show this help message and exit
+  
   --num-clusters NUM_OF_CLUSTERS
+  
                         number of clusters
+                        
   --use-minibatch       use mini batch k-means
+  
   --input-labeled       use labeled input file
+  
   --text-type {abstract,diseases}
+  
                         what terms to be considered in abstract for feature
+                        
                         extraction: entire abstract (default) or only disease
+                        
                         terms
                         
 Sample Usage: 
