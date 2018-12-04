@@ -77,7 +77,12 @@ Note: (only for --text-type=diseases option)
 
 
 The restful APIs provided by NCBI to access pubtator annotations (https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/usage/)
-is not stable. After multiple requests it sends 502 bad gateway error. To resolve this I have used downloadable databases (might miss some latest PMIDs) of pubtator annotations from (ftp://ftp.ncbi.nlm.nih.gov/pub/lu/PubTator/). Use ./genPubtator2Disease.sh <pmidsFile> to generate pubtator disease annotations for new pmids. Since the actual filesize of disease2pubtator is very large and not accepted by github, a local copy of pubtator disease annotation for all gold set and test set pmids is provided and can be found at ./pubtator_dumps/disease2pubtator. Uncomment lines 2-5 in ./genPubator2Disease.sh to download the full file.
+is not stable. After multiple requests it sends 502 bad gateway error. To resolve this I have used downloadable databases (might miss some latest PMIDs) of pubtator annotations from (ftp://ftp.ncbi.nlm.nih.gov/pub/lu/PubTator/). 
+
+Use ./genPubtator2Disease.sh <pmidsFile> to generate pubtator disease annotations for new pmids. 
+	
+Since the actual filesize of disease2pubtator is very large and not accepted by github, a local copy of pubtator disease annotation for all gold set and test set pmids is provided and can be found at ./pubtator_dumps/disease2pubtator. 
+Uncomment lines 2-5 in ./genPubator2Disease.sh to download the full file.
   
   
   
