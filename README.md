@@ -118,36 +118,17 @@ Uncomment lines 2-5 in ./genPubator2Disease.sh to download the full file.
 4. The parameters tested/used to execute the clustering algorithm. 
 
 
-usage: (python test.py -h)
+	usage: (python test.py -h)
 
-test.py [-h] [--num-clusters NUM_OF_CLUSTERS] [--use-minibatch]
-               [--input-labeled] [--text-type {abstract,diseases}]
-               input_file output_file
+		Default parameters:
+		
+		num-cluster=5
 
-positional arguments:
-  input_file            input file containing pmids to cluster
-  output_file           output file to write cluster assignments
+		use-minibatch=False
 
-optional arguments:
-  -h, --help            show this help message and exit
-  --num-clusters NUM_OF_CLUSTERS
-                        number of clusters
-  --use-minibatch       use mini batch k-means
-  --input-labeled       use labeled input file
-  --text-type {abstract,diseases}
-                        what terms to be considered in abstract for feature
-                        extraction: entire abstract (default) or only disease
-                        terms
+		input-labeled=False
 
-
-Default parameters:
-num-cluster=5
-
-use-minibatch=False
-
-input-labeled=False
-
-text-type=abstract
+		text-type=abstract
 
 
 5. Design choices and computational complexity of your code
