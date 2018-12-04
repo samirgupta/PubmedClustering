@@ -38,6 +38,16 @@ optional arguments:
                         terms
 
 
+Default parameters:
+num-cluster=5
+
+use-minibatch=False
+
+input-labeled=False
+
+text-type=abstract
+
+
 5. Design choices and computational complexity of your code
 
 	k-means used for clustering. Document feature extraction based on tf-idf. 
