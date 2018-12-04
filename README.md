@@ -8,38 +8,38 @@ see ./requirements.txt for other dependencies
 
 usage:  (python test.py -h)
 
-  test.py [-h] [--num-clusters NUM_OF_CLUSTERS] [--use-minibatch]
+  	test.py [-h] [--num-clusters NUM_OF_CLUSTERS] [--use-minibatch]
   
                [--input-labeled] [--text-type {abstract,diseases}]
                
                input_file output_file
 
-positional arguments:
+	positional arguments:
 
-  input_file            input file containing pmids to cluster
-  
-  output_file           output file to write cluster assignments
-  
+	  input_file            input file containing pmids to cluster
 
-optional arguments:
+	  output_file           output file to write cluster assignments
 
-  -h, --help            show this help message and exit
-  
-  --num-clusters NUM_OF_CLUSTERS
-  
-                        number of clusters
-                        
-  --use-minibatch       use mini batch k-means
-  
-  --input-labeled       use labeled input file
-  
-  --text-type {abstract,diseases}
-  
-                        what terms to be considered in abstract for feature
-                        
-                        extraction: entire abstract (default) or only disease
-                        
-                        terms
+
+	optional arguments:
+
+	  -h, --help            show this help message and exit
+
+	  --num-clusters NUM_OF_CLUSTERS
+
+				number of clusters
+
+	  --use-minibatch       use mini batch k-means
+
+	  --input-labeled       use labeled input file
+
+	  --text-type {abstract,diseases}
+
+				what terms to be considered in abstract for feature
+
+				extraction: entire abstract (default) or only disease
+
+				terms
                         
 Sample Usage: 
 
@@ -49,17 +49,17 @@ Sample Usage:
 
 ####if labeled the number of unique labels is used as number of clusters
 
-python test.py Data/pmids_gold_set_labeled.txt Output/cluster_output --input_labeled
+	python test.py Data/pmids_gold_set_labeled.txt Output/cluster_output --input_labeled
 
 
 ###sample usage if inputfile is unlabeled
 
-python test.py Data/pmids_gold_set_unlabeled.txt Output/cluster_output
+	python test.py Data/pmids_gold_set_unlabeled.txt Output/cluster_output
 
 
 ###can specify number of clusters
 
-python test.py Data/pmids_gold_set_unlabeled.txt Output/cluster_output --num-cluster=4
+	python test.py Data/pmids_gold_set_unlabeled.txt Output/cluster_output --num-cluster=4
 
 
 
@@ -70,7 +70,7 @@ Sample Usage
 
 ##use only disease mentions from pubtator as token text of a pmid for feature extraction
 
-python test.py Data/pmids_gold_set_labeled.txt Output/cluster_output --input_labeled --text-type=diseases
+	python test.py Data/pmids_gold_set_labeled.txt Output/cluster_output --input_labeled --text-type=diseases
 
 
 Note: (only for --text-type=diseases option)
