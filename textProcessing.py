@@ -9,7 +9,7 @@ from pprint import pprint
 
 def get_abstract_text(pmid):
     """Given a valid PMID download
-		the abstract text from ncbi
+        the abstract text from ncbi
 
     Args:
         pmid (string): PMID
@@ -38,47 +38,47 @@ def get_abstract_text(pmid):
     return ""
 
 def get_pubtator_entities(pmid):
-	request_url = 'https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/RESTful/tmTool.cgi/BioConcept/'+pmid+'/JSON/'
-	res = requests.get(request_url)
-	print(request_url)
-	print(res.text)
-	if res.status_code != 200:
-		# This means something went wrong.
-		raise NameError('GET PMID {} {}'.format(pmid,res.status_code))
-	json_result = res.json()
-	#print(json_result)
-	json_doc = None
-	if len(json_result) == 1: json_doc = json_result[0]
-	if json_doc:
-		res_entities = []
-		pubtator_entities = json_doc.get('denotations')
-		for entity in pubtator_entities: res_entities.append(entity['obj'])
-		return " ".join(res_entities)
-	return ""
+    request_url = 'https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/RESTful/tmTool.cgi/BioConcept/'+pmid+'/JSON/'
+    res = requests.get(request_url)
+    print(request_url)
+    print(res.text)
+    if res.status_code != 200:
+        # This means something went wrong.
+        raise NameError('GET PMID {} {}'.format(pmid,res.status_code))
+    json_result = res.json()
+    #print(json_result)
+    json_doc = None
+    if len(json_result) == 1: json_doc = json_result[0]
+    if json_doc:
+        res_entities = []
+        pubtator_entities = json_doc.get('denotations')
+        for entity in pubtator_entities: res_entities.append(entity['obj'])
+        return " ".join(res_entities)
+    return ""
 
 def my_tokenizer(text, stem=True):
-	"""Custom tokenizer converts text to list of tokens
-	
-	Args:
-	    text (string): document text to tokenize
-	    stem (bool, optional): perform steeming by default
-	
-	Returns:
-	    list: list of tokens
-	"""
-	##remove punctuation,stopwords and tokenize
-	translator = str.maketrans('','',string.punctuation)
-	text = text.translate(translator)
-	tokens = nltk.word_tokenize(text.lower())
-	stopwords_set = set(stopwords.words('english'))
-	filtered_tokens = [token for token in tokens if token not in stopwords_set] 
+    """Custom tokenizer converts text to list of tokens
+    
+    Args:
+        text (string): document text to tokenize
+        stem (bool, optional): perform steeming by default
+    
+    Returns:
+        list: list of tokens
+    """
+    ##remove punctuation,stopwords and tokenize
+    translator = str.maketrans('','',string.punctuation)
+    text = text.translate(translator)
+    tokens = nltk.word_tokenize(text.lower())
+    stopwords_set = set(stopwords.words('english'))
+    filtered_tokens = [token for token in tokens if token not in stopwords_set] 
 
-	##perform stemming using Porter stemmer
-	if stem:
-		porter_stemmer = PorterStemmer()
-		tokens = [porter_stemmer.stem(token) for token in filtered_tokens]
+    ##perform stemming using Porter stemmer
+    if stem:
+        porter_stemmer = PorterStemmer()
+        tokens = [porter_stemmer.stem(token) for token in filtered_tokens]
 
-	return tokens
+    return tokens
 
 def get_doc_features(docs,max_features=None,max_ngram=3):
     """get document vectors using tf-idf
