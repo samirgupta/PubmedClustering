@@ -7,6 +7,8 @@ from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from pprint import pprint
 
+nltk.data.path.append("./nltk_data/");
+
 def get_abstract_text(pmid):
     """Given a valid PMID download
         the abstract text from ncbi
