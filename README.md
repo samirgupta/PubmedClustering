@@ -7,9 +7,7 @@ see ./requirements.txt for other dependencies
 
 
 usage: test.py [-h] [--num-clusters NUM_OF_CLUSTERS] [--use-minibatch]
-
                [--input-labeled] [--text-type {abstract,diseases}]
-               
                input_file output_file
 
 positional arguments:
