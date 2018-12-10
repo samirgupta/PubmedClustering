@@ -89,6 +89,8 @@ def my_tokenizer(text, stem=True):
     if stem:
         porter_stemmer = PorterStemmer()
         tokens = [porter_stemmer.stem(token) for token in filtered_tokens]
+    else:
+        tokens = filtered_tokens
 
     return tokens
 
