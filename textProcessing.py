@@ -112,3 +112,22 @@ def get_doc_features(docs,max_features=None,max_ngram=3):
     tfidf_matrix = tfidf_vectorizer.fit_transform(docs)
     #print(tfidf_vectorizer.get_feature_names())
     return tfidf_matrix
+
+def get_doc_features_and_vectorizer(docs,max_features=None,max_ngram=3):
+    """get document vectors using tf-idf
+    
+    Args:
+        docs (list of string): list of documents 
+        max_features (None, optional): max size of document vector (default: max)
+        max_ngram (int, optional): max ngram to consider as feature
+    
+    Returns:
+        sparse matrix, [n_samples, n_features]: tf-idf weighted document-term matrix
+    """
+    
+    tfidf_vectorizer = TfidfVectorizer(max_features=max_features,
+                                       tokenizer=my_tokenizer,
+                                       ngram_range=(1,max_ngram))
+    tfidf_matrix = tfidf_vectorizer.fit_transform(docs)
+    #print(tfidf_vectorizer.get_feature_names())
+    return (tfidf_matrix, tfidf_vectorizer)

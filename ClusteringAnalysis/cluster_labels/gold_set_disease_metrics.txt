@@ -1,0 +1,5 @@
+Clustering Metrics
+Homogeneity:  0.767
+Completeness:  0.734
+V-measure:  0.751
+Adjusted Rand-Index:  0.670
