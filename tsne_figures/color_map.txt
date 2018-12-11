@@ -1,0 +1,5 @@
+ colors = {'TNBC (breast cancer)':'red',\
+              'alzheimer’s disease':'green',\
+              'Noonan':'blue',\
+              'neurofibromatosis':'purple',\
+              'Bardet-Biedl Syndrome Panel':'yellow'}
